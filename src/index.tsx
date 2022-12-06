@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 1. Store - store the state, considered the Global state
+// 2. Action - defines what action to perform on the state
+// 3. Reducer - check which action is being called, decides which action to be called. 
+// 4. Dispatch - forms the action for the reducer
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
